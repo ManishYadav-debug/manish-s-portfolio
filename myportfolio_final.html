@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#08090D">
+    <title>Manish Yadav | Portfolio</title>
+    <link rel="stylesheet" href="myportfolio_final.css">
+</head>
+<body>
+    <!-- A dedicated top anchor makes both Home links return to the true page top. -->
+    <div id="page-top"></div>
+
+    <header class="site-header">
+        <a class="brand" href="#page-top">Portfolio<span>.</span></a>
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#page-top">Home</a>
+            <a href="#qualifications">Qualification</a>
+            <a href="#about">About Me</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-copy">
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hi, I'm <span>Manish Yadav</span></h1>
+                <p>I am pursuing <b>B.Tech</b> in <b>Computer Science</b> at <b>IIIT Raichur, Karnataka</b>, with a passion for exploring core programming and web designing.</p>
+                <p class="hero-note">I want to create innovative solutions, projects, websites and applications.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="hire-btn">Hire Me <span>↗</span></a>
+                    <a href="#qualifications" class="qualification-btn"><span>🎓</span> View My Qualifications <span class="arrow">❯</span></a>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <img src="my img.png" alt="Portrait of Manish Yadav" class="profile-image">
+                <span class="image-glow" aria-hidden="true"></span>
+            </div>
+        </section>
+
+        <section class="page-section about-section" id="about">
+            <p class="eyebrow">A LITTLE ABOUT ME</p>
+            <h2>About Me</h2>
+            <h3>CS Undergraduate</h3>
+            <p>I am an undergraduate pursuing a B.Tech in Computer Science and Engineering at the Indian Institute of Information Technology (IIIT) Raichur. I enjoy turning ideas into colorful, responsive web experiences with HTML5 and CSS3, writing structured C programs, and sharpening my analytical thinking through discrete mathematics and logic puzzles.</p>
+            <div class="about-grid">
+                <article class="mini-card">
+                    <h3>Core Interests</h3>
+                    <ul class="interest-list">
+                        <li>Web Development</li>
+                        <li>Programming</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </article>
+                <article class="mini-card">
+                    <h3>My Hobbies</h3>
+                    <ul class="interest-list">
+                        <li>Playing cricket</li>
+                        <li>Listening to music</li>
+                        <li>Spending time with friends</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="page-section" id="qualifications">
+            <p class="eyebrow">MY ACADEMIC JOURNEY</p>
+            <h2>Education &amp; Qualifications</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr><th>Qualification</th><th>Institute</th><th>Year</th><th>Status</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>10th</td><td>Podar World School, Jaipur</td><td>2023–2024</td><td><span class="status">Completed</span></td></tr>
+                        <tr><td>12th</td><td>Podar World School, Jaipur</td><td>2025–2026</td><td><span class="status">Completed</span></td></tr>
+                        <tr><td>B.Tech</td><td>IIIT Raichur, Karnataka</td><td>2026–2030</td><td><span class="status ongoing">Enrolled</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="page-section contact-section" id="contact">
+            <p class="eyebrow">LET'S TALK</p>
+            <h2>Get In Touch</h2>
+            <h3>Let's Connect!</h3>
+            <p>Feel free to reach out to me via email or connect with me on LinkedIn and GitHub. I'm always open to discussing new projects, creative ideas or opportunities to collaborate.</p>
+
+            <div class="form-card">
+                <h3>Send a message</h3>
+                <p class="subtitle">Fields marked with an asterisk are required.</p>
+                <form action="#" method="POST">
+                    <label for="visitor-name">Your name *</label>
+                    <input id="visitor-name" name="name" type="text" placeholder="Enter your name" required>
+
+                    <label for="visitor-email">Your email *</label>
+                    <input id="visitor-email" name="email" type="email" placeholder="Enter your email" required>
+
+                    <label for="message-subject">Subject</label>
+                    <input id="message-subject" name="subject" type="text" placeholder="Subject">
+
+                    <label for="visitor-message">Message *</label>
+                    <textarea id="visitor-message" name="message" placeholder="Type your message here..." required></textarea>
+
+                    <button type="submit">➤ Send message</button>
+                </form>
+                <p class="form-footer">If the form does not work in your browser, please email <a href="mailto:yadavmanish66313@gmail.com">yadavmanish66313@gmail.com</a>.</p>
+            </div>
+
+            <div class="location-card">
+                <div class="icon-box">📍</div>
+                <div>
+                    <h3>Studying At</h3>
+                    <p>Indian Institute of Information Technology Raichur</p>
+                    <p>Wadawatti, Gadwal Road, Raichur</p>
+                    <p>Karnataka 584102, India</p>
+                </div>
+            </div>
+
+            <h3 class="section-heading">Location / Campus Area</h3>
+            <div class="map-container">
+                <iframe src="https://maps.google.com/maps?q=Indian%20Institute%20of%20Information%20Technology%20Raichur&t=&z=14&ie=UTF8&iwloc=&output=embed" title="Map showing IIIT Raichur" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                <a href="https://www.google.com/maps/search/?api=1&query=Indian+Institute+of+Information+Technology+Raichur" target="_blank" rel="noopener noreferrer" class="map-link">Open in Maps ↗</a>
+            </div>
+
+            <div class="social-grid">
+                <a class="social-card" href="mailto:yadavmanish66313@gmail.com">
+                    <span class="social-icon">✉</span>
+                    <span class="social-label">Email</span>
+                    <span class="social-value">yadavmanish66313@gmail.com</span>
+                </a>
+                <a class="social-card" href="https://linkedin.com/in/manish-yadav-565347432" target="_blank" rel="noopener noreferrer">
+                    <span class="social-icon linkedin-icon">in</span>
+                    <span class="social-label">LinkedIn</span>
+                    <span class="social-value">Connect with me</span>
+                </a>
+                <a class="social-card" href="https://github.com/ManishYadav" target="_blank" rel="noopener noreferrer">
+                    <span class="social-icon github-icon">⌘</span>
+                    <span class="social-label">GitHub</span>
+                    <span class="social-value">View my projects</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Manish Yadav. All rights reserved.</p>
+        <a href="#page-top" class="back-to-top">Back to top ↑</a>
+    </footer>
+</body>
+</html>
